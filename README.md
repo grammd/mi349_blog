@@ -1,2 +1,6 @@
 # mi349_blog
-Personal blog with three pages.
+A Personal blog with three pages.
+
+Link:
+
+https://dg-mi349-blog.netlify.app/
