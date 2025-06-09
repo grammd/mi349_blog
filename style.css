@@ -172,6 +172,13 @@ footer {
   border-radius: 8px;
 }
 
+.about-image-caption {
+  text-align: center;
+  font-size: 0.98rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 800px) {
   .about-columns {
     flex-direction: column;
