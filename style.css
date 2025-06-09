@@ -147,3 +147,38 @@ footer {
   font-size: 0.9rem;
   margin-top: 4rem;
 }
+
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .about-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about-image-col {
+    justify-content: flex-start;
+  }
+}
+
