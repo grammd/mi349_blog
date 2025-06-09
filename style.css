@@ -73,6 +73,28 @@ nav a:hover {
 .posts a:hover {
   text-decoration: underline;
 }
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1 1 60%;
+}
+
+.about-image-container {
+  flex: 1 1 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 form {
   margin-top: 2rem;
